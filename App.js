@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default function App() {
   return (
@@ -8,11 +8,12 @@ export default function App() {
     {/* Main App View */}
       <View>
        {/* Text Input View */}
-        
+        <TextInput/>
+       {/* Button View */}
+       <Button title="Add"/>
       </View>
       <View>
-       {/* Button View */}
-
+       
       </View>
     </View>
   );
