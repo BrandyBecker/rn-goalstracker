@@ -3,8 +3,7 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 
 export default function App() {
   return (
-    
-    <View>
+    <View style={{padding: 30}}>
     {/* Main App View */}
       <View>
        {/* Text Input View */}
@@ -20,5 +19,4 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  
 });
